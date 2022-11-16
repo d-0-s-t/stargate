@@ -1,0 +1,35 @@
+body {
+	background-color: #1c1c1c;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+#backgroundElement {
+	background-color: black;
+}
+
+#eclipsingObject {
+	border-radius: 50%;
+	background-color: #020202;
+	box-shadow: 0px -5px 7px #878787;
+}
+
+#controlsContainer {
+	left: 5px;
+	bottom: 5px;
+	position: absolute;
+	background-color: #ffd76a;
+	padding: 20px
+}
+
+.centerElement {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
